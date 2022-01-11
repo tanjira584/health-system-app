@@ -77,6 +77,82 @@
     color: #276c95;
     transform: translateY(-2px)
 }
+/*-------------Home Area-------------*/
+.home-area {
+    
+}
+.slide {
+   padding-top: 100px;
+}
+.slider .slide:nth-child(1) {
+    background-image: url('images/1-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.slide-content {
+    width: 65%;
+}
+.slide-content .content {
+    text-align: center;
+}
+.slide-content .content img {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.slide-content .content h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #276c95;
+}
+.slide-content .content h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #276c95;
+}
+.slide-content .content p {
+    line-height: 1.7em;
+    margin-bottom: 30px;
+    color: #2c2c2c;
+    padding: 0 30px;
+}
+.slide-content .content a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    background-color: #276c95;
+    border: 2px solid #276c95;
+    border-radius: 4px;
+    transition: 0.5s all;
+}
+.slide-content .content a:hover {
+    color: #276c95;
+    background-color: transparent;
+    transform: translateY(-2px);
+}
+
+.slide-img {
+    width: 35%;
+}
+.slide-img .img img {
+    width: 100%;
+}
+
+
+
+
+
 
 
 
