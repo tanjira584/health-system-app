@@ -148,26 +148,268 @@
 .slide-img .img img {
     width: 100%;
 }
+/*-------Home Bottom Area ------*/
+.home-bottom {
 
+}
+.home-row {
+    display: flex;
+}
+.home-col {
+    width: 33.33%;
+}
+.home-box {
+    padding: 40px;
+    background-color: #276c95;
+}
+.home-col:nth-child(2) .home-box {
+    background-color: skyblue;
+}
+.home-box h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #ffffff;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 26px;
+}
+.home-box p {
+    color: #ffffff;
+    line-height: 1.7em;
+    margin-bottom: 26px;
+}
+.home-box a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 26px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    transition: 0.5s all;
+}
+.home-box a:hover {
+    color: #276c95;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    transform: translateY(-2px);
+}
+.home-box ul {
+    list-style: none;
+}
+.home-box ul li:nth-child(1) {
+    padding-top: 0;
+}
+.home-box ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #f7f7f7;
+}
+.home-box ul li span {
+    color: #ffffff
+}
+/* ----------------
+    Appoinment Area 
+-------------------*/
+.appoinment-area {
+    padding: 100px 0;
+}
+.appoinment-row {
+    display: flex;
+}
+.appoinment-col {
+    width: 32%;
+}
+.about-us-col {
+    width: 68%;
+    flex-grow: 1;
+}
 
+.appoinment-form {
+    position: relative;
+    border: 5px solid silver;
+    padding: 20px;
+}
+.appoinment-form h3 {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    left: -20px;
+    background-color: #276c95;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 0;
+}
+.appoinment-form h3 i {
+    margin-right: 16px;
+}
+.appoinment-form h3::before {
+    content: '';
+    position: absolute;
+    display:inline-block;
+    left: 0;
+    top: 100%;
+    width: 1px;
+    height: 1px;
+    border-top: 8px solid #276c95;
+    border-left: 7px solid transparent;
+    border-right: 8px solid #276c95;
+    border-bottom: 7px solid transparent;
+}
+.appoinment-form form {
+    margin-top: 50px;
+    padding-top: 30px;
+}
+.appoinment-form form input,
+.appoinment-form form textarea {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 12px;
+    outline: none;
+    border: 1px solid silver;
+}
+.appoinment-time {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.appoinment-time select {
+    padding: 7px;
+}
+.appoinment-form .form-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.appoinment-form form input[type='checkbox'] {
+    width: inherit;
+    margin-bottom: 0;
+}
+.appoinment-form form input[type='submit'] {
+    width: inherit;
+    border: 2px solid #276c95;
+    background: #276c95;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: 0.5s all;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+}
+.appoinment-form form input[type='submit']:hover {
+    background-color: transparent;
+    color: #276c95;
+}
+.about-us {
+    padding: 0 16px;
+}
+.about-us .section-info {
+    text-align: center;
+}
+.section-info h2 {
+    text-transform: uppercase;
+    color: #276c95;
+}
 
+.section-info hr {
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    color: #276c95;
+    border: 1px solid #276c95;
+}
+.section-info p {
+    font-style: italic;
+    width: 50%;
+    margin: 10px auto;
+    line-height: 1.7em;
+    font-size: 14px;
+}
+.we-provide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.we-provide .sec-col {
+    padding: 20px;
+    text-align: center;
+}
+.we-provide .sec-col img {
+    margin-bottom: 12px;
+}
+.we-provide .sec-col h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.we-provide .sec-col p {
+    font-size: 14px;
+    line-height: 1.6em;
+    margin-bottom: 12px;
+}
+.we-provide .sec-col:nth-child(1) {
+    border-right: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+.we-provide .sec-col:nth-child(2) {
+    border-left: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+.we-provide .sec-col:nth-child(3) {
+    border-top: 1px solid silver;
+    border-right: 1px solid silver;
+}
+.we-provide .sec-col:nth-child(4) {
+    border-left: 1px solid silver;
+    border-top: 1px solid silver;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*------------Fantastic Area------------*/
+.fantastic-area {
+    padding: 70px 0;
+    background-color: #276c95;
+}
+.fantastic-row {
+    display: flex;
+    align-items: center;
+}
+.fantastic-col {
+    width: 25%;
+}
+.fantastic-box {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fantastic-box .icon {
+    margin-right: 12px;
+    color: #ffffff;
+}
+.fantastic-box .icon i{
+    font-size: 60px;
+}
+.fantastic-box .text {
+    margin-left: 12px;
+    color: #ffffff;
+}
+.fantastic-box .text h2{
+    font-size: 34px;
+}
+.fantastic-box .text p {
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5s all;
+}
 
 
 
