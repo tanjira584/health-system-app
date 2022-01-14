@@ -411,6 +411,338 @@
     letter-spacing: 0.5s all;
 }
 
+/*-------Department Area -----*/
+
+.department-area {
+    padding: 100px 0;
+}
+.section-info {
+    text-align: center;
+}
+.department-block {
+    margin-top: 20px;
+}
+.department-tablink {
+    margin-bottom: 30px;
+}
+.department-tablink ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e7e6e6;
+}
+.department-tablink ul li {
+    display: inline;
+    width: 20%;
+    text-align: center;
+    transition: 0.5s all;
+}
+.department-tablink ul li h4{
+    display: inline-block;
+    text-transform: uppercase;
+}
+.department-tablink ul li h4 a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 50px;
+    color: #2c2c2c;
+}
+.department-tablink ul li:hover {
+    background: rgb(10, 140, 226)
+}
+.department-tablink ul li.active {
+    position: relative;
+    background: rgb(16, 135, 214);
+}
+.department-tablink ul li.active h4 a{
+    color: #ffffff;
+}
+.department-tablink ul li::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    top: 100%;
+    width: 1px;
+    height: 1px;
+    transform: translateX(-50%);
+   border-top: 13px solid rgb(16, 135, 214);
+   border-left: 10px solid transparent;
+   border-right: 10px solid transparent;
+}
+
+
+.department-tablink ul li:hover h4 a {
+    color: #ffffff;
+}
+
+.department-content-area {
+    background: #e7e6e6;
+    padding: 20px;
+}
+.department-row {
+    display: flex;
+    justify-content: stretch;
+}
+.department-content {
+    width: 66.67%;
+    padding-right: 16px;
+}
+.department-img {
+    width: 33.33%;
+    background-image: url('./images/department.jpg');
+    background-repeat: no-repeat;
+    background-position: 28% 8%;
+}
+.department-img img {
+    width: 100%;
+}
+.department-info {
+    margin-bottom: 30px;
+}
+.department-info h2 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.department-info p {
+    line-height: 1.7em;
+}
+.department-tests {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.test-box {
+    display: flex;
+    padding: 16px;
+}
+.test-box .img {
+    padding-right: 8px;
+    
+}
+.test-box .img i {
+    padding: 20px;
+    font-size: 50px;
+    background-color: #276c95;
+    color: #ffffff;
+}
+.test-box .content {
+    padding-left: 8px;
+}
+.test-box .content h4 {
+    text-transform: uppercase;
+}
+.test-box .content p{
+    line-height: 1.7em;
+}
+
+/*--------App Area------------*/
+.app-area {
+    background-image: url('./images/app-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.app-row {
+    display: flex;
+    justify-content: stretch;
+}
+.app-col {
+    width: 50%;
+}
+.app-col:nth-child(2) {
+    
+}
+.app-col:nth-child(2) .img {
+    padding: 40px;
+    padding-bottom: 0;
+    text-align: right;
+}
+.app-content {
+    padding: 100px 0;
+}
+.app-area .section-info {
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.app-area .section-info h2 {
+    color: #ffffff;
+}
+.app-area .section-info hr {
+    border: 1px solid #ffffff;
+}
+.app-area .section-info p {
+    width: 70%;
+    margin: 10px auto;
+}
+.app-content .content {
+    text-align: center;
+    padding: 0 30px;
+    font-size: 14px;
+}
+.app-content .content p {
+    color: #ffffff;
+    line-height: 1.7em;
+    margin-bottom: 30px;
+}
+.app-content .content h4 {
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.app-content .content .btns {
+    display: flex;
+    justify-content: center;
+}
+.app-content .content .btns a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 16px;
+    padding: 10px 26px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    transition: 0.5s all;
+}
+.app-content .content .btns a i {
+    margin-right: 10px;
+}
+.app-content .content .btns a:hover {
+    background-color: #ffffff;
+    color: #276c95;
+    transform: translateY(-2px);
+}
+/*-----------blog area -------*/
+.blog-area {
+    padding: 100px 0;
+}
+.blog-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+.blog-col {
+    
+}
+.blog .post-media {
+    position: relative;
+}
+.blog .post-media img {
+    width: 100%;
+}
+.blog .post-media .post-time {
+    position: absolute;
+    right: 0;
+    bottom: 4px;
+    display: inline-block;
+}
+.blog .post-media .post-time span {
+    display: inline-block;
+    padding: 14px;
+    background-color: #276c95;
+    color: #ffffff;
+    font-size: 14px;
+}
+.blog .post-media .post-time span:nth-child(2) {
+    margin-left: -10px;
+    background-color:aqua;
+}
+.blog .post-auth {
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 0;
+}
+.blog .post-auth span {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.blog .post-body h4 {
+    margin-bottom: 14px;
+}
+.blog .post-body hr {
+    width: 50px;
+    border: 1px solid #276c95;
+}
+.blog .post-body p {
+    font-size: 14px;
+    line-height: 1.7em;
+    margin: 14px 0;
+}
+.blog .post-body a {
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #1b87c5;
+    padding: 12px 0;
+    font-weight: bold;
+}
+
+/*-----------------Doctor Area -----------*/
+.doctor-area {
+    padding: 100px 0;
+}
+.doctor-row {
+    display: flex;
+    margin-top: 30px;
+}
+.doctor-col {
+    width: 25%;
+}
+.doctor {
+    position: relative;
+    padding: 0 16px;
+    overflow: hidden;
+    transition: 0.5s all;
+}
+.doctor .img img {
+    width: 100%;
+}
+
+.doc-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    color: #ffffff;
+    background:rgb(10 140 227 / 0.86);
+    text-align: center;
+    transform: translateY(100%);
+    transition: 0.5s all;
+}
+.doctor:hover .doc-info {
+    transform: translate(0);
+}
+.doc-info h4 {
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+.doc-info p {
+    margin-bottom: 14px;
+    text-transform: capitalize;
+}
+.doc-info ul {
+    list-style: none;
+}
+.doc-info ul li {
+    display: inline;
+    margin: 0 4px;
+}
+.doc-info ul li a {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 6px;
+}
+.doc-info ul li a i {
+    color: #ffffff;
+
+}
 
 
 
