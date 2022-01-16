@@ -620,6 +620,9 @@
 /*-----------blog area -------*/
 .blog-area {
     padding: 100px 0;
+    background-image: url('./images/1-bg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 .blog-row {
     display: grid;
@@ -746,6 +749,7 @@
 /*-----------------------------Service Area ----------------------------*/
 .service-area {
     position: relative;
+    padding-top: 100px;
 }
 .service-row {
     display: flex;
@@ -812,29 +816,131 @@
     height: 90px;
     border: 1px solid rgba(192, 192, 192, 0.274);
 }
+/*-----------------------Buy Our App------------------*/
+.buy-theme {
+    padding: 70px 0;
+    background-color: #46a4db;
+}
+.section-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-col .content {
+    color: #ffffff;
+}
+.section-col .content h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
 
+.section-col .content p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff;
+}
+.buy-btn a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 12px 30px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border-radius: 30px;
+    transition: 0.5s all;
+}
+.buy-btn a:hover {
+    color: #46a4db;
+    background-color: #ffffff;
 
+}
 
+/*-------About Area---------------*/
+.about-area {
+    
+}
+.about-row {
+    display: flex;
+    align-items: center;
+}
+.about-col {
+    width: 50%;
+}
 
+.about-img img {
+    width: 100%;
+}
+.about-content {
+    padding: 0 16px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
 
+.item:nth-child(2) {
+    margin-left: 25px;
+}
+.item:nth-child(3) {
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+.item .icon {
+    flex-grow: 0;
+    width: 15%;
+}
+.item .icon .ico {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #276c95;
+    border-radius: 50%;
+}
+.item .icon .ico::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: 120%;
+    display: inline-block;
+    width: 150px;
+    border: 0.2px solid rgba(192, 192, 192, 0.418);
+}
+.item .icon .ico i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    color: #276c95;
+}
+.item .content {
+    padding-left: 16px;
+    width: 85%;
+    flex-grow: 1;
+}
+.item .content h4 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.item .content p {
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #9494a2;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*------------Testimonial Area ---------*/
+.testimonial-area {
+    padding: 100px 0;
+    background-image: url('./images/t-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 
