@@ -743,6 +743,101 @@
     color: #ffffff;
 
 }
+/*-----------------------------Service Area ----------------------------*/
+.service-area {
+    position: relative;
+}
+.service-row {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+.service-img {
+    padding: 0 20px;
+}
+.service-box {
+    padding: 0 px;
+}
+.sin-service {
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.sin-service:last-child {
+    padding-bottom: 0;
+}
+.service-col:nth-child(1) .sin-service {
+    text-align: right;
+}
+/* .service-col:nth-child(1) .sin-service .content {
+
+} */
+.service-col:nth-child(1) .sin-service .content h4{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.service-col:nth-child(1) .sin-service .content p{
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #9494a2;
+}
+.service-col:nth-child(1) .sin-service .icon {
+    position: relative;
+    margin-left: 14px;
+}
+
+.service-col:nth-child(3) .sin-service .content{
+    order: 2;
+}
+.service-col:nth-child(3) .sin-service .content h4 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.service-col:nth-child(3) .sin-service .content p {
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #9494a2;
+}
+.service-col:nth-child(3) .sin-service .icon {
+    position: relative;
+    margin-right: 14px;
+}
+
+.service-col .sin-service:not(:last-child) .icon::after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    right: 50%;
+    top: 100%;
+    height: 90px;
+    border: 1px solid rgba(192, 192, 192, 0.274);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
