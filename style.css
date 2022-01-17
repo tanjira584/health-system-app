@@ -664,6 +664,10 @@
 .blog .post-auth span {
     text-transform: uppercase;
     font-size: 12px;
+    color: #626262;
+}
+.blog .post-auth span i {
+    margin-right: 10px;
 }
 .blog .post-body h4 {
     margin-bottom: 14px;
@@ -676,6 +680,7 @@
     font-size: 14px;
     line-height: 1.7em;
     margin: 14px 0;
+    color: #626262;
 }
 .blog .post-body a {
     text-decoration: none;
@@ -685,7 +690,9 @@
     padding: 12px 0;
     font-weight: bold;
 }
-
+.blog .post-body a:hover {
+    color: #626262;
+}
 /*-----------------Doctor Area -----------*/
 .doctor-area {
     padding: 100px 0;
@@ -724,10 +731,10 @@
 }
 .doc-info h4 {
     text-transform: uppercase;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
 }
 .doc-info p {
-    margin-bottom: 14px;
+    margin-bottom: 12px;
     text-transform: capitalize;
 }
 .doc-info ul {
@@ -735,11 +742,11 @@
 }
 .doc-info ul li {
     display: inline;
-    margin: 0 4px;
+    margin: 0 0px;
 }
 .doc-info ul li a {
     display: inline-block;
-    padding: 8px;
+    padding: 4px;
     border-radius: 6px;
 }
 .doc-info ul li a i {
@@ -941,9 +948,55 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.testimonial-area .section-info {
+    color: #ffffff;
+}
+.testimonial-area .section-info h2{
+    color: #ffffff;
+}
+.testimonial-area .section-info hr {
+    border: 1px solid #ffffff;
+}
+.test-row {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 7px 7px 12px #2c2c2c61;
+    padding: 50px 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.test-col .test-content {
+    border-right: 1px solid rgba(192, 192, 192, 0.425);
+}
+.test-col:last-child .test-content {
+    border-right: 1px solid transparent;
+}
+.test-content {
+    text-align: center;
+    padding: 0 24px;
+}
+.test-content .img {
+    margin-bottom: 20px;
+}
+.test-content .img img {
+    border: 3px solid #276c95;
+    border-radius: 50%;
+}
+.test-content p {
+    font-size: 14px;
+    line-height: 1.7em;
 
-
-
+}
+.test-content .author {
+    color: #000;
+    margin-bottom: 30px;
+}
+.test-content .author span {
+    color: #9494a2;
+}
+.test-content .content {
+    color: #9494a2;
+}
 
 
 
